@@ -1,5 +1,5 @@
 
-#change globel to local
+#change global to local
 x=10
 def greet2():
     global x
