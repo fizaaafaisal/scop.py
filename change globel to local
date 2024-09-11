@@ -1,0 +1,9 @@
+
+#change globel to local
+x=10
+def greet2():
+    global x
+    x+=12
+    print("inside",x)
+greet2()
+print("outside",x)
