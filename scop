@@ -1,0 +1,16 @@
+#globel scop
+x=10
+def greet():
+    print("inside",x)
+greet()
+x+=100
+print("outside",x)
+
+#local scop
+
+x=10
+def greet():
+    x=12
+    print("inside",x)
+greet()
+print("outside",x)
